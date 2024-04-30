@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ body {
+    font-family: 'Poppins', sans-serif;
+ }
+ nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 8vw;
+    box-shadow: 10px rgba(12, 11, 11, 0.15);
+ }
+ nav img {
+    width: 160px;
+    cursor: pointer;
+ }
+ nav .navigation {
+    display: flex;
+ }
+ #menu-btn {
+    width: 50px;
+    height: 50px;
+    display: none;
+ }
+ #menu-close {
+    display: none;
+ }
+ nav .navigation ul {
+    display: flex;
+    align-items: center;
+ }
+ nav .navigation ul li {
+      list-style: none;
+      margin-left: 30px;
+ }
+ nav .navigation ul li a {
+    text-decoration: none;
+    color: green;
+    font-size: 25px;
+    font-weight: 500;
+    transition: 0.1s ease;
+ }
+ nav .navigation ul li a:active {
+    color: #f0b30a;
+ }
+ nav .navigation ul li a.active,
+ nav .navigation ul li a:hover {
+    color: yellow;
+ }
+
+/*scholarship*/
+#scho-img {
+    background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url("s3.jpg");
+    width: 100%;
+     height: 70vh;
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding-top: 30px;
+     margin-bottom: 100px;
+ }
+ #scholarship {
+    padding: 30px;
+    margin-bottom: 30px;
+ }
+ #scholarship .scho-box  {
+    background-color: #e8e6ec;
+    padding: 100px 20px;
+    margin: 40px;
+    border-radius: 7px;
+ }
+ #scholarship .scho-box .scho-head h1 {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 20px;
+   color: brown;
+ }
+ #scholarship .scho-box .scho-head {
+    margin-bottom: 5px;
+ }
+ #scholarship .scho-box .scho-head p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+   color: white;
+  
+ }
+ #scholarship .scho-box .scho-type  {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+  
+ } 
+ #scholarship .scho-box .scho-type a {
+    text-decoration: none;
+    background-color: white;
+    border-color: white;
+    padding: 12px 22px;
+    color: rgb(136, 223, 22);
+    font-size: 20px;
+    border-radius:5px;
+    text-align: center;
+ }
+ #information .head h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    padding: 30px;color: rgb(192, 192, 17);
+ }
+ #information .group .info h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px;
+    color: blue;
+ }
+ #information .group .info ul li {
+    margin-left: 95px;
+    margin-bottom: 7px;
+    font-size: 20px;
+    font-weight: 500;
+ 
+ }
+ #information .scho-info h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 30px;
+    color: rgb(5, 5, 63);
+ }
+ #information .scho-info .table th {
+   padding: 20px 20px;
+   text-align: center;
+   border: 1px solid gray;
+ }
+ #information .scho-info .table {
+    margin-left: 50px;
+ }
+ #information .detail ul li {
+    margin-left: 70px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-top: 40px;
+ }
+ #information .scho-info {
+    margin-bottom: 50px;
+ }
+ #information .form {
+    margin-bottom: 50px;
+ }
+ 
+ #information .form {
+    background-color: #e8e6ec;
+    padding: 3vw;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+ #information .form h4 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+ }
+ #information .form p {
+    font-size: 20px;
+    margin-bottom: 20px;
+ }
+ #information .form .form-row input {
+   width: 40%;
+    margin: 10px 0;
+    padding: 17px 15px;
+    outline: none;
+    border: 1px solid white; 
+   margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+ }
+ #information .form .form-col input {
+    width: 85%;
+    margin: 10px 0;
+    padding: 17px 15px;
+    outline: none;
+    border: 1px solid white; 
+   margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+ }
+ #information .form .form-col textarea {
+    width: 85%;
+    margin: 10px 0;
+    padding: 17px 15px;
+    outline: none;
+    border: 1px solid white; 
+   margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+ }
+ #information .form .form-col button {
+    text-decoration: none;
+    background-color: #03031d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.2s ease;
+    margin-bottom: 20px;
+ }
+ #information .form .form-col button:hover {
+    color: #03031d;
+    background-color: white;
+ }
+ #fill .form {
+    margin-bottom: 50px;
+    width: 57%;
+    padding-right: 0px;
+ }
+ 
+ #fill .form {
+    padding: 3vw;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color:antiquewhite;
+ }
+ #fill h4 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+ }
+ #fill .form p {
+    font-size: 20px;
+    margin-bottom: 20px;
+ }
+ #fill .form .form-row input {
+   width: 80%;
+   border-radius: 20px;
+    margin: 10px 0;
+    padding: 17px 15px;
+    outline: none;
+    border: 1px solid white; 
+   margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+ }
+ #fill .form {
+    margin-left: 260px;
+ }
+ #fill .form .form-col input {
+    width: 80%;
+    border-radius: 20px;
+    margin: 10px 0;
+    padding: 17px 15px;
+    outline: none;
+    border: 1px solid white; 
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+ }
+ 
+ #fill .form .form-col button {
+    text-decoration: none;
+    background-color: #03031d;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.2s ease;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+ }
+ #fill .form .form-col button:hover {
+    color: #03031d;
+    background-color: white;
+ }
+ /*footer*/
+footer {
+    background: rgb(3, 3, 22);
+    padding: 8vw;
+ }
+ footer .foot-col {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+ }
+ footer .footer-col {
+    padding-bottom: 40px;
+ }
+ footer h3 {
+    color: white;
+    font-weight: 600;
+    padding-bottom: 20px;
+ }
+ footer p {
+    list-style: none;
+    color: #7b838a;
+    cursor: pointer;
+    padding: 10px 0;
+    font-size: 15px;
+    transition: 0.3s ease;
+ }
+ footer p:hover {
+    color: white;
+ }
+ footer .footer-col li {
+    list-style: none;
+    color:white;
+ }
+ footer .subscribe {
+    margin-top: 25px;
+ }
+ footer input {
+    width: 250px;
+    padding:15px 12px;
+    border: none;
+    outline: none;
+    color: white;
+ }
+ footer a {
+    text-decoration: none;
+     font-size: 20px;
+     padding: 9px 15px;
+     background-color: white;
+     font-weight: 600;
+ }
+ footer a.yellow {
+    color: black;
+    background-color: #f0b30a;
+    transition: 0.2s ease;
+ }
+ footer a.yellow:hover {
+    color: black;
+    background-color: rgb(115, 189, 183);
+ }
+  footer .copyright {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ footer .copyright b {
+    color: white;
+    font-weight: 400;
+ }
+ footer .copyright .links i {
+    padding: 10px 10px;
+    border: 1px solid rgb(189, 189, 212);
+    cursor: pointer;
+    color: white;
+    background: gray;
+ }
+ footer .copyright .links i:hover {
+    color: black;
+    background: yellow;
+ }

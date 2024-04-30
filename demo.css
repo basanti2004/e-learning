@@ -1,0 +1,335 @@
+@media (max-width:769px) {
+    nav {
+      padding: 15px 20px;
+   }
+   nav img {
+    width: 80px;
+ }
+ #menu-btn {
+    display: initial;
+ }
+ #menu-close {
+    display: initial;
+    font-size: 30px;
+    padding: 30px 0 20px 20px;
+    color: white;
+ }
+ nav .navigation ul {
+    position: absolute;
+    top: 0;
+    right: -220px;
+    width: 220px;
+    background: rgba(17,20,104,0.45);
+    backdrop-filter: blur(4.5px);
+    border: 1px solid rgba(255,255,255,0.18);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: 0.3s ease;
+ }
+ nav .navigation ul.active {
+    right: 0;
+ }
+ nav img {
+   width: 120px;
+}
+ nav .navigation ul li {
+    padding: 20px 0 20px 40px;
+ }
+ nav .navigation ul li a {
+    color: white;
+ }
+ #Home {
+    padding-top: 0px;
+ }
+ #Home h2 {
+    width: 80%;
+ }
+ #skill-content {
+    display: flex;
+   flex-direction: column;
+ }
+ #skill-content .skill-text h2 {
+    color: rgb(4, 4, 27);
+   margin: 2px;
+ }
+ dl, ol, ul {
+   font-size: 25px;
+ }
+ #skill-content .skill-fea {
+   font-size: 24px;
+ }
+ element.style {
+   width: 95%;
+   height: 50vh;
+}
+element.style {
+   display: flex;
+   background-color: #e8e6ec;
+   padding: 50px 0px;
+   padding-left: 30px;
+   margin-top: 70px;
+   margin-left: 50px;
+   width: 80%;
+   margin-left: 90px;
+}
+element.style {
+   display: flex;
+   background-color: rgb(218, 206, 208);
+   padding: 50px 20px;
+   padding-left: 30px;
+   margin-top: 50px;
+   margin-left: 100px;
+   width: 50%;
+   margin-left: 270px;
+   margin-bottom: 50px;
+}
+ #skill-content .skill-info {
+    width: 100%;
+    margin: 6vw 1vw 3vw 1vw;
+ }
+ #about-Home {
+    background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url("banner.jpg");
+    width: 100%;
+    height: 50vh;
+    
+ }
+ #about-blog {
+   background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url("logic.jpg");
+   width: 100%;
+   height: 40vh;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 30px;
+   margin-bottom: 100px;
+}
+#course-in {
+   display: flex;
+   flex-direction: column;
+}
+ nav .navigation ul {
+    position: absolute;
+    top: 0;
+    right: -220px;
+    width: 220px;
+    background: rgba(17,20,104,0.45);
+    backdrop-filter: blur(4.5px);
+    border: 1px solid rgba(255,255,255,0.18);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: 0.3s ease;
+ }
+
+ #blog-container .cate {
+    position: absolute;
+    top: 0;
+    margin-left: 60vw;
+    margin-top: 94.20vw;
+    width: 400px;
+    background: rgba(4, 9, 34, 0.45);
+    height: 390%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 30px 30px 30px;
+}
+#blog-contain img {
+    width: 70%;
+    height: 40vh;
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+#blog-contain {
+    background-color: rgb(226, 221, 215);
+    margin: 0;
+}
+#course .courses .cost {
+    background-color: rgb(10, 10, 58);
+    color: white;
+    line-height: 70px;
+    width: 70px;
+    height: 65px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 15px;
+    bottom: 160px;
+}
+#blog-container .blogs .post {
+    margin-bottom: 30px;
+    margin-left: 20px;
+    background: #e7e7df;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+}
+#blog-container .blogs {
+    width: 65%;
+ }
+ #info p {
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: 200;
+ }
+ #about-info .main-class {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding:  20px;
+    margin-left: 50px;
+    font-size: 30px;
+    
+ }
+ nav img {
+   width: 120px;
+}
+ #founder .found-group {
+    display: flex;
+    flex-direction: column;
+ }
+ #founder .found-group .found-img img {
+    height: 60vh;
+    margin: 30px;
+ }
+ #founder .found-group .found-img h2 {
+    color: rgb(83, 218, 20);
+    font-size: 40px;
+    font-weight: 500;
+    padding-left: 260px;
+    margin-bottom: 30px;
+ }
+ #co-founder .co-found {
+    display: flex;
+    flex-direction: column;
+ }
+ #co-founder .co-img h2 {
+    color: rgb(83, 218, 20);
+    font-size: 40px;
+    padding-left: 260px;
+    margin-bottom: 30px;
+ }
+ #co-founder .co-found .co-info p {
+    font-size: 20px;
+    font-weight: 200;
+    padding-bottom: 40px;
+    padding-right: 15px;
+ }
+ #features {
+    padding: 8vw 4vw 0 4vw;
+ }
+ #course {
+    padding: 8vw 4vw 0 4vw;
+ }
+ #register {
+    padding: 6vw 4vw 6vw 4vw;
+ }
+ #register .reminder .time {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+ }
+ #professor {
+    padding: 10vw 10vw 10vw 10vw;
+    margin-top: 40px;
+ }
+ footer {
+    padding: 8vw;
+ }
+ footer .foot-col {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+ }
+ footer .copyright {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ footer .copyright b {
+    margin-bottom: 20px;
+ }
+ }
+ @media (max-width:475px) {
+    #register {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+   }
+   #register .reminder .time {
+    display: flex;
+  flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 30px; 
+ }  
+ 
+ #register .reminder .time .date {
+    padding: 4vw 6vw 4vw 6vw;
+ } 
+ #register .reminder .time {
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+  text-align: center;
+ }
+ #skill-content .skill-img img {
+   width: 430px;
+   height: 450px;
+}
+#information .scho-info .table {
+   margin-left: 10px;
+}
+#certificate h5 {
+   text-decoration: none;
+   margin-left: 20px;
+   font-size: 27px;
+   font-weight: 600;
+   padding-bottom: 10px;
+}
+#certificate p {
+   margin-right: 20px;
+   margin-left: 15px;
+}
+#certificate h3 {
+   margin-left: 20px;
+   font-size: 32px;
+   font-weight: 600;
+   color: #03031d;
+   padding-bottom: 30px;
+   margin-top: 40px;
+}
+
+ #Home b {
+    text-align: center;
+ }  
+ #Home h2 {
+    font-size: 30px;
+    
+ }
+ footer .subscribe {
+  display: flex;
+  flex-direction: row;
+ }
+ footer a {
+    padding-left: 2px;
+ }
+ }
+ @media (max-width:390px) {
+    #Home h2 {
+       font-size: 25px;
+   }
+   footer .subscribe {
+   display: flex;
+   flex-wrap: wrap;
+ }
+ }
+ 

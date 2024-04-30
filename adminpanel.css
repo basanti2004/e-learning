@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ body {
+    font-family: 'Poppins', sans-serif;
+ }
+ nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(5, 5, 66);
+    padding: 10px;
+ }
+ nav .logout{
+    padding: 15px 25px;
+    color: white;
+    background-color: rgb(7, 7, 82);
+    border-radius: 40px;
+ }
+ 
+nav .adminname h1 {
+   color: white;
+}
+nav .option .button {
+    position: absolute;
+    top: 75px;
+    right: 1050px;
+    width: 220px;
+    background: rgb(186, 197, 197, 0.45);
+    border: 1px solid rgba(255,255,255,0.18);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: 0.3s ease;
+    padding: 40px;
+}
+nav .option .button a:active {
+   color:indianred;
+ }
+ nav .option .button a.active,
+ nav .option .button a:hover {
+    color: indianred;
+ }
+nav .option .button ul li {
+    text-decoration: none;
+}
+nav .option .button a {
+    color: rgb(6, 6, 75);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.course-box {
+    display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+   grid-gap: 20px;
+   margin-top: 50px;
+   margin-left: 200px;
+ 
+}
+.course-box .box { 
+     background-color: rgb(91, 180, 91);
+     margin: 30px;
+     padding-bottom: 20px;
+     text-align: center;    
+  
+}
+.course-box .box h1{
+    background-color: darkgreen;
+    color: white;
+    padding: 10px 10px;
+
+
+}
+.course-box .box h5 {
+    color: blanchedalmond;
+    font-size: 24px;
+}
+.row{
+   margin-top: 30px;
+}

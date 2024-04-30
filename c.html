@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Website</title>
+    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="inspectcourse.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+   <nav>
+    <img style="height:60px;" src="beduca.jpg" alt="">
+    <div class="navigation">
+        <ul>
+            <i id="menu-close" class="fa fa-times"></i>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="about.html">About</a></li>
+           <li><a href="blog.html">Blog</a></li>
+           <li><a href="course.html">Courses</a></li>
+           <li><a href="contact.html">Contact</a></li>
+           <li><a href="main.php" style="background-color:darkblue;
+            border:darkblue;font-size:15px;color:white;padding: 10px 15px;border-radius: 5px;">Admin login</a></li>
+        </ul>
+    <img id="menu-btn" src="menu.jpg">
+    </div>
+   </nav> 
+  <!--blog-info-->
+ <section id="blog-contain">
+    <img src="cpro.jpg" alt="">
+   <h3>C Language</h3>
+   <p>C is a procedural programming language initially developed by Dennis Ritchie in the year 1972 at Bell Laboratories of AT&T Labs. It was mainly developed as a system programming language to write the UNIX operating system.</p>
+  <h5>The main features of the C language include:</h5>
+  <ul>
+    <li>General Purpose and Portable</li>
+    <li>Low-level Memory Access</li>
+    <li>Fast Speed</li>
+    <li>Clean Syntax</li>
+  </ul>
+  <h2>Why Should We Learn C?</h2>
+  <p>Many later languages have borrowed syntax/features directly or indirectly from the C language. Like syntax of Java, PHP, JavaScript, and many other languages are mainly based on the C language. C++ is nearly a superset of C language (Only a few programs may compile in C, but not in C++).</p>
+ <p>So,  if a person learns C programming first, it will help him to learn any modern programming language as well. As learning C help to understand a lot of the underlying architecture of the operating system. Like pointers, working with memory locations, etc.</p>
+  <h2>Structure of the C program</h2>
+  <p>After the above discussion, we can formally assess the structure of a C program. By structure, it is meant that any program can be written in this structure only. Writing a C program in any other structure will hence lead to a Compilation Error. The structure of a C program is as follows:</p>
+  <img src="structure.jpg" alt="">
+  <h2>Components of a C Program:</h2>
+  <h5>1. Header Files Inclusion – Line 1 [#include <stdio.h>]</h5>
+  <p>The first and foremost component is the inclusion of the Header files in a C program. A header file is a file with extension .h which contains C function declarations and macro definitions to be shared between several source files. All lines that start with # are processed by a preprocessor which is a program invoked by the compiler. In the above example, the preprocessor copies the preprocessed code of stdio.h to our file. The .h files are called header files in C.
+    Some of the C Header files:</p>
+ <ul>
+    <li>stddef.h – Defines several useful types and macros.</li>
+    <li>stddef.h – stdint.h – Defines exact width integer types.</li>
+    <li>stdio.h – Defines core input and output functions</li>
+    <li>stdlib.h – Defines numeric conversion functions, pseudo-random network generator, and memory allocation</li>
+    <li>string.h – Defines string handling functions</li>
+    <li>math.h – Defines common mathematical functions.</li>
+ </ul>
+ <h5>2. Main Method Declaration – Line 2 [int main()]</h5>
+ <p>The next part of a C program is to declare the main() function. It is the entry point of a C program and the execution typically begins with the first line of the main(). The empty brackets indicate that the main doesn’t take any parameter (See this for more details). The int that was written before the main indicates the return type of main(). The value returned by the main indicates the status of program termination. See this post for more details on the return type.</p>
+  <h5>3. Body of Main Method – Line 3 to Line 6 [enclosed in {}]</h5>
+  <p>The body of a function in the C program refers to statements that are a part of that function. It can be anything like manipulations, searching, sorting, printing, etc. A pair of curly brackets define the body of a function. All functions must start and end with curly brackets.</p>
+   <h5>4. Statement – Line 4 [printf(“Hello World”);]</h5>
+   <p>Statements are the instructions given to the compiler. In C, a statement is always terminated by a semicolon (;). In this particular case, we use printf() function to instruct the compiler to display “Hello World” text on the screen.</p>
+  <h5>5. Return Statement – Line 5 [return 0;]</h5>
+  <p>The last part of any C function is the return statement. The return statement refers to the return values from a function. This return statement and return value depend upon the return type of the function. The return statement in our program returns the value from main(). The returned value may be used by an operating system to know the termination status of your program. The value 0 typically means successful termination. </p>
+</section>
+ <footer>
+    <div class="foot-col">
+    <div class="footer-col">
+        <h3>Top Products</h3>
+        <p>Manage Reputation</p>
+        <p> Power Tools</p>
+        <p> Managed Website</p>
+         <p>Marketing Service</p>
+    </div>
+    <div class="footer-col">
+        <h3>Quick Links</h3>
+        <p>Jobs</p>
+        <p> Brand Assets</p>
+        <p>Investor Relations</p>
+         <p>Terms Of Service</p>
+    </div>
+    <div class="footer-col">
+        <h3>Features</h3>
+        <p>Manage Reputation</p>
+        <p> Power Tools</p>
+        <p>Managed Website</p>
+         <p>Marketing Serice</p>
+    </div>
+    <div class="footer-col">
+        <h3>Resources</h3>
+        <p>Guides</p>
+        <p> Research</p>
+        <p>Experts</p>
+         <p>Marketing Service</p>
+    </div>
+    <div class="footer-col">
+        <h3>Newsletter</h3>
+        <li>You can trust us. we only send promo offers,</li>
+        <div class="subscribe">
+            <input type="text" placeholder="your email address">
+            <a href="#" class="yellow">SUBSCRIBE</a>
+         </div>
+    </div>
+</div>
+ <div class="copyright">
+    <b>Copyright @2022 All rights reserved | This template is made by Bright Educa</b>
+    <div class="links">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin-in"></i>
+    </div>
+ </div>
+</footer>
+<script>
+    $('#menu-btn').click(function(){
+        $('nav .navigation ul').addClass('active')
+    });
+    $('#menu-close').click(function(){
+        $('nav .navigation ul').removeClass('active')
+    });
+
+</script>
+</body>
+</html>

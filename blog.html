@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Website</title>
+    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="inspectcourse.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+   <nav>
+    <img style="height:60px;" src="beduca.jpg" alt="">
+    <div class="navigation">
+        <ul>
+            <i id="menu-close" class="fa fa-times"></i>
+           <li><a href="main.php">Home</a></li>
+           <li><a href="about.html">About</a></li>
+           <li><a class="active" href="blog.html">Blog</a></li>
+           <li><a href="course.html">Courses</a></li>
+           <li><a href="contact.html">Contact</a></li>
+           <li><a href="main.php" style="background-color:darkblue;
+            border:darkblue;font-size:15px;color:white;padding: 10px 15px;border-radius: 5px;">Admin login</a></li>
+        </ul>
+    <img id="menu-btn" src="menu.jpg">
+    </div>
+   </nav> 
+   <!--blog-Home -->
+ <section id="about-blog">
+ </section>
+ <!--blog-->
+ <section id="blog-container">
+    <div class="blogs" style="grid-template-columns: repeat(auto-fit,minmax(350px,1fr)); grid-gap: 30px;">
+        <div class="post">
+        <img src="web2.jpg" alt="">
+        <h3>What is Web Development ?</h3>
+        <p>So, you’re interested in becoming a developer? Congratulations, and welcome to your new career!</p>
+        <a href="webdevelopment.html">Read More</a>
+        </div>
+        <div class="post">
+            <img src="webdesign.jpg" alt="">
+            <h3>Web Design</h3>
+            <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites</p>
+            <a href="webdesign.html">Read More</a>
+            </div>
+            <div class="post">
+                <img src="python.jpg" alt="">
+                <h3>Python Programming Language</h3>
+                <p>Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.</p>
+                <a href="python.html">Read More</a>
+                </div>
+                <div class="post">
+                    <img src="js.jpg" alt="">
+                    <h3>JavaScript</h3>
+                   <p> JavaScript is a lightweight, cross-platform, and interpreted compiled programming language which is also known as the scripting language for webpages. </p>
+                    <a href="JS.html">Read More</a>
+                    </div>
+                    <div class="post">
+                        <img src="gd.jpg" alt="">
+                        <h3>Graphic Designer</h3>
+                       <p>Graphic design combines art and technology and graphic designers use a variety of design elements and techniques.</p>
+                        <a href="graphicdesign.html">Read More</a>
+                        </div>
+                        <div class="post">
+                            <img src="cpro.jpg" alt="">
+                            <h3>C Language</h3>
+                           <p>C is a procedural programming language. It was initially developed by Dennis Ritchie as a system programming language to write an operating system. </p>
+                            <a href="c.html">Read More</a>
+                            </div>
+            
+        
+    </div>
+    <div class="cate" style="margin-top: 34.3rem;">
+        <h2>Categories</h2>
+        <hr>
+        <a href="webdevelopment.html">Web Development</a>
+        <hr>
+        <a href="webdesign.html">Web Design</a>
+        <hr>
+        <a href="python.html">Phython Programming</a>
+        <hr>
+        <a href="JS.html">JavaScript</a>
+        <hr>
+        <a href="graphicdesign.html">Graphic design</a>
+        <hr>
+        <a href="c.html">C language</a>
+        <hr>
+    </div>
+ </section>
+ <footer>
+    <div class="foot-col">
+    <div class="footer-col">
+        <h3>Top Products</h3>
+        <p>Manage Reputation</p>
+        <p> Power Tools</p>
+        <p> Managed Website</p>
+         <p>Marketing Service</p>
+    </div>
+    <div class="footer-col">
+        <h3>Quick Links</h3>
+        <p>Jobs</p>
+        <p> Brand Assets</p>
+        <p>Investor Relations</p>
+         <p>Terms Of Service</p>
+    </div>
+    <div class="footer-col">
+        <h3>Features</h3>
+        <p>Manage Reputation</p>
+        <p> Power Tools</p>
+        <p>Managed Website</p>
+         <p>Marketing Serice</p>
+    </div>
+    <div class="footer-col">
+        <h3>Resources</h3>
+        <p>Guides</p>
+        <p> Research</p>
+        <p>Experts</p>
+         <p>Marketing Service</p>
+    </div>
+    <div class="footer-col">
+        <h3>Newsletter</h3>
+        <li>You can trust us. we only send promo offers,</li>
+        <div class="subscribe">
+            <input type="text" placeholder="your email address">
+            <a href="#" class="yellow">SUBSCRIBE</a>
+         </div>
+    </div>
+</div>
+ <div class="copyright">
+    <b>Copyright @2022 All rights reserved | This template is made by Bright Educa</b>
+    <div class="links">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin-in"></i>
+    </div>
+ </div>
+</footer>
+<script>
+    $('#menu-btn').click(function(){
+        $('nav .navigation ul').addClass('active')
+    });
+    $('#menu-close').click(function(){
+        $('nav .navigation ul').removeClass('active')
+    });
+
+</script>
+</body>
+</html>

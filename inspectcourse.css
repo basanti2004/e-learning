@@ -1,0 +1,323 @@
+@media (max-width:769px) {
+    nav {
+      padding: 15px 20px;
+   }
+   nav img {
+    width: 80px;
+ }
+ #menu-btn {
+    display: initial;
+ }
+ #menu-close {
+    display: initial;
+    font-size: 30px;
+    padding: 30px 0 20px 20px;
+    color: white;
+ }
+ nav .navigation ul {
+    position: absolute;
+    top: 0;
+    right: -220px;
+    width: 220px;
+    background: rgba(17,20,104,0.45);
+    backdrop-filter: blur(4.5px);
+    border: 1px solid rgba(255,255,255,0.18);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: 0.3s ease;
+ }
+ nav .navigation ul.active {
+    right: 0;
+ }
+ #course-in {
+    display: flex;
+   flex-direction: column;
+}
+#course-in .overview .course-img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 0%;
+}
+#course-in .overview {
+    width: 100%;
+ }
+
+ nav img {
+    width: 120px;
+ }
+ #contact {
+    display: flex;
+   flex-direction: column;
+}
+ #course-in .enroll {
+    width: 50%;
+    margin-left: 100px;
+}
+#contact .getin {
+   width: 100%;
+}
+#contact .form {
+   background-color: #e8e6ec;
+   width: 100%;
+   padding: 3vw;
+   border-radius: 10px;
+   margin-left: 0px;
+   margin-right: 30px;
+}
+element.style {
+   z-index: 3;
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   padding: 0px;
+   border-width: 0px;
+   margin: 0px;
+   left: 0px;
+   top: 0px;
+}
+#scho-img {
+   background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url("s3.jpg");
+   width: 100%;
+   height: 50vh;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 30px;
+   margin-bottom: 100px;
+}
+#information .group .info ul li {
+   margin-left: 26px;
+   margin-bottom: 7px;
+   font-size: 20px;
+   font-weight: 500;
+   margin-right: 20px;
+}
+#certificate ul p {
+   text-decoration: none;
+   margin-left: 30px;
+   padding-bottom: 7px;
+   font-size: 23px;
+   font-weight: 500;
+   padding-bottom: 4px;
+   margin-right: 20px;
+}
+#certificate h2 {
+   text-align: center;
+   font-size: 35px;
+   font-weight: 600;
+   color: #03031d;
+   padding-bottom: 30px;
+   margin-top: 40px;
+}
+#certificate p {
+   margin-right: 20px;
+}
+#certificate .certify .image img {
+   width: 70%;
+   height: 45vh;
+   margin-left: 100px;
+}
+}
+@media (max-width:475px) {
+   #certificate .certify .image img {
+      width: 90%;
+      height: 45vh;
+      margin-left: 20px;
+  }
+  #certificate h6 {
+   padding: 40px 10px;
+   font-size: 27px;
+   font-weight: 500;
+   color: rgb(7, 80, 80);
+   flex-wrap: wrap;
+   margin-left: 10px;
+}
+#about-info .main-class {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: flex-start;
+   padding: 20px;
+   margin-left: 80px;
+   font-size: 30px;
+}
+#founder .found-group .found-img img {
+   height: 60vh;
+   margin: 10px;
+   width: 100%;
+   margin-left: 0px;
+   padding-left: 5px;
+}
+#founder .found-group .found-img h2 {
+   color: rgb(83, 218, 20);
+   font-size: 40px;
+   font-weight: 500;
+   padding-left: 50px;
+   margin-bottom: 30px;
+}
+#co-founder .co-img img {
+   height: 60vh;
+   padding-left: 5px;
+   width: 100%;
+}
+#co-founder .co-img h2 {
+   color: rgb(83, 218, 20);
+   font-size: 40px;
+   padding-left: 50px;
+   margin-bottom: 30px;
+}
+#blog-container .cate {
+   position: absolute;
+   top: 0;
+   margin-left: 100vw;
+   margin-top: 120vw;
+   width: 400px;
+   background: rgba(4, 9, 34, 0.45);
+   height: 390%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+   #about-blog {
+      background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url("logic.jpg");
+      width: 100%;
+      height: 30vh;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 30px;
+      margin-bottom: 100px;
+  }
+  #blog-container .blogs img {
+   width: 100%;
+   height: 40vh;
+   border-radius: 10px;
+}
+#blog-container {
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+   padding: 4vw;
+   width: 100%;
+}
+#blog-container .blogs {
+   width: 100%;
+   margin-left: 0px;
+}
+#blog-container .blogs .post {
+   margin-bottom: 30px;
+   margin-left: 0px;
+   margin-right: 15px;
+   background: #e7e7df;
+   padding: 20px 20px;
+}
+#blog-contain img {
+   width: 90%;
+   height: 40vh;
+   border-radius: 20px;
+   margin-left: 20px;
+   margin-top: 20px;
+}
+#blog-contain p {
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 15px;
+   font-size: 20px;
+}
+#blog-contain ul li {
+   font-size: 25px;
+   padding-bottom: 10px;
+   color: darkgoldenrod;
+  
+}
+#blog-contain ul {
+   margin: 20px;
+   padding-left: 20px;
+}
+#course-in .enroll {
+   width: 70%;
+   margin-left: 20px;
+}
+#con {
+   background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url("mobile.jpg");
+   width: 100%;
+   height: 60vh;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 30px;
+   margin-bottom: 100px;
+}
+#contact .form {
+   background-color: #e8e6ec;
+   width: 100%;
+   padding: 5vw;
+   border-radius: 10px;
+   margin-left: 0px;
+   margin-right: 20px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contact .form .mb-3 input{
+   padding: 10px 10px;
+   width: 100%;
+ }
+ #contact .form .mb-3 label {
+    font-size: 22px;
+    font-weight: 500;
+ }
+ #contact .form .mb-4 input{
+   padding: 20px 10px;
+   width: 100%;
+ }
+ #contact .form .mb-4 label {
+    font-size: 22px;
+    font-weight: 500;
+ }
+ #contact .form button {
+    background-color: #03031d;
+    color: white;
+    padding: 10px 30px;
+ }
